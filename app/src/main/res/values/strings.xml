@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weight Monitor</string>
+    <string name="title_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Información personal</string>
+    <string name="title_estadisticas">Estadísticas</string>
+    <string name="title_historial">Historial</string>
+    <string name="title_imc">IMC</string>
+</resources>

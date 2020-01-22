@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kejora.weightmonitor.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_estadisticas"
+        android:name="com.kejora.weightmonitor.ui.estadisticas.EstadisticasFragment"
+        android:label="@string/title_estadisticas"
+        tools:layout="@layout/fragment_estadisticas" />
+
+    <fragment
+        android:id="@+id/navigation_historial"
+        android:name="com.kejora.weightmonitor.ui.historial.HistorialFragment"
+        android:label="@string/title_historial"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/navigation_imc"
+        android:name="com.kejora.weightmonitor.ui.imc.IMCFragment"
+        android:label="@string/title_imc"
+        tools:layout="@layout/fragment_historial" />
+</navigation>

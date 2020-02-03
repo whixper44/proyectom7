@@ -20,8 +20,8 @@ public class EstadisticasFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = rootView.findViewById(R.id.text_home);
+        rootView = inflater.inflate(R.layout.fragment_estadisticas, container, false);
+        //final TextView textView = rootView.findViewById(R.id.text_home);
 
         return rootView;
     }

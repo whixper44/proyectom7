@@ -6,8 +6,19 @@
     <string name="title_estadisticas">Estadísticas</string>
     <string name="title_historial">Historial</string>
     <string name="title_imc">IMC</string>
-    <string name="tvpeso">Peso</string>
-    <string name="tvaltura">Altura</string>
+    <string name="tvpeso">Peso (Kg)</string>
+    <string name="tvaltura">Estatura (m)</string>
     <string name="tvedad">Edad</string>
     <string name="tvimc">IMC</string>
+    <string name="etaltura">0</string>
+    <string name="etedad">0</string>
+    <string name="etPeso">0</string>
+    <string name="imc">IMC</string>
+    <string name="peso_ideal">Peso ideal</string>
+    <string name="sp_gender">Género</string>
+    <string-array name="gender_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
 </resources>
